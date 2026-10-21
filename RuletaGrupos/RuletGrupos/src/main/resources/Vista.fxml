@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<TitledPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="491.0" prefWidth="782.0" text="CASINO PARA GRUPOS" textOverrun="CENTER_ELLIPSIS" wrapText="true" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controlador">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="465.0" prefWidth="817.0">
+         <children>
+            <AnchorPane layoutY="-88.0" prefHeight="653.0" prefWidth="782.0" style="-fx-background-color: linear-gradient(to top, #240046, #5A189A, #9D4EDD);">
+               <children>
+                  <VBox alignment="CENTER" layoutX="56.0" layoutY="24.0" prefHeight="540.0" prefWidth="695.0" style="-fx-padding: 20;">
+                     <children>
+                        <Label alignment="TOP_CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="75.0" prefWidth="696.0" text="¿A QUIEN LE TOCARÁ?" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="☞Benzin ExtraBold" size="37.0" />
+                           </font>
+                        </Label>
+                        <HBox alignment="TOP_CENTER" cacheShape="false" centerShape="false" nodeOrientation="LEFT_TO_RIGHT" prefHeight="202.0" prefWidth="646.0" scaleShape="false" style="-fx-padding: 30; -fx-background-color: linear-gradient(to bottom, #FFE066, #E09F3E, #FFD166); -fx-background-radius: 25; -fx-spacing: 18;">
+                           <children>
+                              <Label fx:id="rodillo1" prefHeight="334.0" prefWidth="207.0" style="-fx-background-color: FFF8E7; -fx-font-size: 24; -fx-font-weight: bold; -fx-alignment: center; -fx-background-radius: 25; -fx-effect: dropshadow(gaussian, rgba(60,9,108,0.25), 15, 0.2, 0, 2);" text="GRUPO 1" textFill="#3c096c" />
+                              <Label fx:id="rodillo2" layoutX="10.0" layoutY="10.0" prefHeight="334.0" prefWidth="207.0" style="-fx-background-color: FFF8E7; -fx-font-size: 24; -fx-font-weight: bold; -fx-alignment: center; -fx-background-radius: 25; -fx-effect: dropshadow(gaussian, rgba(60,9,108,0.25), 15, 0.2, 0, 2);" text="GRUPO 2" textFill="#3c096c" />
+                              <Label fx:id="rodillo3" layoutX="217.0" layoutY="10.0" prefHeight="334.0" prefWidth="207.0" style="-fx-background-color: FFF8E7; -fx-font-size: 24; -fx-font-weight: bold; -fx-alignment: center; -fx-background-radius: 25; -fx-effect: dropshadow(gaussian, rgba(60,9,108,0.25), 15, 0.2, 0, 2);" text="GRUPO 3" textFill="#3c096c" />
+                           </children>
+                           <effect>
+                              <Blend />
+                           </effect>
+                        </HBox>
+                        <Button fx:id="girar" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" onAction="#girar" prefHeight="25.0" prefWidth="368.0" style="-fx-background-color: da0000; -fx-font-size: 25; -fx-font-weight: Bold; -fx-background-radius: 50; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.35), 15, 0.2, 0, 2);" text="DALE AQUI" textAlignment="CENTER" textFill="WHITE" translateY="25.0">
+                           <cursor>
+                              <Cursor fx:constant="NW_RESIZE" />
+                           </cursor>
+                        </Button>
+                     </children>
+                  </VBox>
+                  <Pane fx:id="Palanca" layoutX="646.0" layoutY="161.0" prefHeight="239.0" prefWidth="117.0">
+                     <children>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffed00" height="149.0" layoutX="69.0" layoutY="90.0" stroke="#795100" strokeType="OUTSIDE" strokeWidth="3.0" width="27.0" />
+                        <Circle fill="#40454a" layoutX="83.0" layoutY="66.0" radius="33.0" stroke="BLACK" strokeType="INSIDE" />
+                     </children>
+                  </Pane>
+               </children>
+            </AnchorPane>
+         </children></AnchorPane>
+  </content>
+</TitledPane>
