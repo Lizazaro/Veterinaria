@@ -22,7 +22,7 @@ public class RuletaGrupos extends Application {
         Parent root = loader.load();
         Scene scene = new Scene(root);
 
-        stage.setTitle("Tragamonedas de grupos");
+        stage.setTitle("Ruleta de grupos");
         stage.setScene(scene);
         stage.show();
         

@@ -23,14 +23,14 @@
                      <children>
                         <Label alignment="TOP_CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="75.0" prefWidth="696.0" text="¿A QUIEN LE TOCARÁ?" textAlignment="CENTER" textFill="WHITE">
                            <font>
-                              <Font name="☞Benzin ExtraBold" size="37.0" />
+                              <Font name="System Bold" size="51.0" />
                            </font>
                         </Label>
                         <HBox alignment="TOP_CENTER" cacheShape="false" centerShape="false" nodeOrientation="LEFT_TO_RIGHT" prefHeight="202.0" prefWidth="646.0" scaleShape="false" style="-fx-padding: 30; -fx-background-color: linear-gradient(to bottom, #FFE066, #E09F3E, #FFD166); -fx-background-radius: 25; -fx-spacing: 18;">
                            <children>
-                              <Label fx:id="rodillo1" prefHeight="334.0" prefWidth="207.0" style="-fx-background-color: FFF8E7; -fx-font-size: 24; -fx-font-weight: bold; -fx-alignment: center; -fx-background-radius: 25; -fx-effect: dropshadow(gaussian, rgba(60,9,108,0.25), 15, 0.2, 0, 2);" text="GRUPO 1" textFill="#3c096c" />
-                              <Label fx:id="rodillo2" layoutX="10.0" layoutY="10.0" prefHeight="334.0" prefWidth="207.0" style="-fx-background-color: FFF8E7; -fx-font-size: 24; -fx-font-weight: bold; -fx-alignment: center; -fx-background-radius: 25; -fx-effect: dropshadow(gaussian, rgba(60,9,108,0.25), 15, 0.2, 0, 2);" text="GRUPO 2" textFill="#3c096c" />
-                              <Label fx:id="rodillo3" layoutX="217.0" layoutY="10.0" prefHeight="334.0" prefWidth="207.0" style="-fx-background-color: FFF8E7; -fx-font-size: 24; -fx-font-weight: bold; -fx-alignment: center; -fx-background-radius: 25; -fx-effect: dropshadow(gaussian, rgba(60,9,108,0.25), 15, 0.2, 0, 2);" text="GRUPO 3" textFill="#3c096c" />
+                              <Label fx:id="rodillo1" prefHeight="334.0" prefWidth="207.0" style="-fx-background-color: FFF8E7; -fx-font-size: 24; -fx-font-weight: bold; -fx-alignment: center; -fx-background-radius: 50; -fx-effect: dropshadow(gaussian, rgba(60,9,108,0.25), 15, 0.2, 0, 2);" text="GRUPO 1" textFill="#3c096c" />
+                              <Label fx:id="rodillo2" layoutX="10.0" layoutY="10.0" prefHeight="334.0" prefWidth="207.0" style="-fx-background-color: FFF8E7; -fx-font-size: 24; -fx-font-weight: bold; -fx-alignment: center; -fx-background-radius: 50; -fx-effect: dropshadow(gaussian, rgba(60,9,108,0.25), 15, 0.2, 0, 2);" text="GRUPO 2" textFill="#3c096c" />
+                              <Label fx:id="rodillo3" layoutX="217.0" layoutY="10.0" prefHeight="334.0" prefWidth="207.0" style="-fx-background-color: FFF8E7; -fx-font-size: 24; -fx-font-weight: bold; -fx-alignment: center; -fx-background-radius: 50; -fx-effect: dropshadow(gaussian, rgba(60,9,108,0.25), 15, 0.2, 0, 2);" text="GRUPO 3" textFill="#3c096c" />
                            </children>
                            <effect>
                               <Blend />
