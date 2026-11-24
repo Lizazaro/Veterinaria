@@ -90,7 +90,10 @@ public class PanelVeterinario extends javax.swing.JFrame {
         bttonAgenda.setFont(new java.awt.Font("Montserrat Black", 0, 24)); // NOI18N
         bttonAgenda.setForeground(new java.awt.Color(255, 255, 255));
         bttonAgenda.setText("Agenda");
+        bttonAgenda.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         bttonAgenda.setBorder(null);
+        bttonAgenda.setBorderPainted(false);
+        bttonAgenda.setContentAreaFilled(false);
         bttonAgenda.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 bttonAgendaActionPerformed(evt);
@@ -101,7 +104,9 @@ public class PanelVeterinario extends javax.swing.JFrame {
         bttonConsulta.setFont(new java.awt.Font("Montserrat Black", 0, 24)); // NOI18N
         bttonConsulta.setForeground(new java.awt.Color(255, 255, 255));
         bttonConsulta.setText("Consulta");
+        bttonConsulta.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         bttonConsulta.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
+        bttonConsulta.setContentAreaFilled(false);
         bttonConsulta.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 bttonConsultaActionPerformed(evt);
@@ -112,7 +117,9 @@ public class PanelVeterinario extends javax.swing.JFrame {
         bttonHistorial.setFont(new java.awt.Font("Montserrat Black", 0, 24)); // NOI18N
         bttonHistorial.setForeground(new java.awt.Color(255, 255, 255));
         bttonHistorial.setText("Historial Clínico");
+        bttonHistorial.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         bttonHistorial.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
+        bttonHistorial.setContentAreaFilled(false);
         bttonHistorial.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 bttonHistorialActionPerformed(evt);
@@ -125,6 +132,7 @@ public class PanelVeterinario extends javax.swing.JFrame {
         bttonInicio.setFont(new java.awt.Font("Montserrat Black", 0, 24)); // NOI18N
         bttonInicio.setForeground(new java.awt.Color(0, 102, 102));
         bttonInicio.setText("Inicio");
+        bttonInicio.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         bttonInicio.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
         bttonInicio.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -306,6 +314,7 @@ public class PanelVeterinario extends javax.swing.JFrame {
         bttonAtendConsul.setFont(new java.awt.Font("Montserrat Black", 0, 14)); // NOI18N
         bttonAtendConsul.setForeground(new java.awt.Color(255, 255, 255));
         bttonAtendConsul.setText("Atender Consulta");
+        bttonAtendConsul.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         bttonAtendConsul.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 bttonAtendConsulActionPerformed(evt);
@@ -316,6 +325,7 @@ public class PanelVeterinario extends javax.swing.JFrame {
         bttonVerHist.setFont(new java.awt.Font("Montserrat Black", 0, 14)); // NOI18N
         bttonVerHist.setForeground(new java.awt.Color(255, 255, 255));
         bttonVerHist.setText("Ver Historial");
+        bttonVerHist.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         bttonVerHist.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 bttonVerHistActionPerformed(evt);
